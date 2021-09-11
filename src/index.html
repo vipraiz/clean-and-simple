@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#111111" />
+    <meta name="description" content="description" />
+    <title>New site</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <div class="site-container">
+      @include('partials/header.html')
+      <main class="main">
+        <section class="hero">
+          <div class="hero__swiper swiper-hero">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="hero__container container">
+                  <div class="swiper-hero__subtitle">PLAN YOUR LIFE</div>
+                  <div class="swiper-hero__title">Increase your <span>productivity</span></div>
+                  <div class="swiper-hero__text">
+                    Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.
+                  </div>
+                  <button class="swiper-hero__btn btn-reset" aria-label="play video">
+                    <svg aria-hidden="true" width="10" height="11">
+                      <use href="img/sprite.svg#triangle"></use>
+                    </svg>
+                  </button>
+                  <div class="swiper-hero__union">
+                    <svg aria-hidden="true" width="35" height="36">
+                      <use href="img/sprite.svg#clock"></use>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="hero__container container">
+                  <div class="swiper-hero__subtitle">PLAN YOUR LIFE</div>
+                  <div class="swiper-hero__title">Increase your <span>productivity</span></div>
+                  <div class="swiper-hero__text">
+                    Brute laoreet efficiendi id his, ea illum nonumes luptatum pro. Usu atqui laudem an, insolens gubergren similique est cu. Et vel modus congue vituperata.
+                  </div>
+                  <button class="swiper-hero__btn btn-reset" aria-label="play video">
+                    <svg aria-hidden="true" width="10" height="11">
+                      <use href="img/sprite.svg#triangle"></use>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-hero__dots swiper-dots"></div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="about__container container">
+            <h3 class="title about__title">ABOUT US</h3>
+            <h2 class="title title_sub about__subtitle">Read about our app</h2>
+            <div class="about__items">
+              <div class="item-about">
+                <div class="item-about__icon">
+                  <svg aria-hidden="true" width="18" height="21">
+                    <use href="img/sprite.svg#overview"></use>
+                  </svg>
+                </div>
+                <h4 class="item-about__title">Overview</h4>
+                <div class="item-about__text">Brute laoreet efficiendi id his, ea illum nonumes luptatum pro.</div>
+              </div>
+              <div class="item-about">
+                <div class="item-about__icon">
+                  <svg aria-hidden="true" width="28" height="18">
+                    <use href="img/sprite.svg#files"></use>
+                  </svg>
+                </div>
+                <h4 class="item-about__title">Files</h4>
+                <div class="item-about__text">No vim nulla vitae intellegat. Ei enim error ius, solet atomorum conceptam ex has.</div>
+              </div>
+              <div class="item-about">
+                <div class="item-about__icon">
+                  <svg aria-hidden="true" width="22" height="20">
+                    <use href="img/sprite.svg#meeting-chats"></use>
+                  </svg>
+                </div>
+                <h4 class="item-about__title">Meeting chats</h4>
+                <div class="item-about__text">Vim ne tacimates neglegentur. Erat diceret omittam at est.</div>
+              </div>
+              <div class="item-about">
+                <div class="item-about__icon">
+                  <svg aria-hidden="true" width="21" height="19">
+                    <use href="img/sprite.svg#save-events"></use>
+                  </svg>
+                </div>
+                <h4 class="item-about__title">Save events</h4>
+                <div class="item-about__text">Nisl idque mel ea, nominati voluptatum.</div>
+              </div>
+            </div>
+            <div class="about__links">
+              <a href="#" class="about__link btn btn_secondary">Read more</a>
+              <span>OR</span>
+              <a href="#" class="about__link btn btn_primary">Get started</a>
+            </div>
+          </div>
+          <div class="about__bottom stats-about">
+            <div class="stats-about__item">
+              <div class="stats-about__body">
+                <div class="stats-about__icon">
+                  <svg aria-hidden="true" width="67" height="68">
+                    <use href="img/sprite.svg#clock"></use>
+                  </svg>
+                </div>
+                <div class="stats-about__number">89%</div>
+                <div class="stats-about__text">Customers who have increased their productivity</div>
+              </div>
+            </div>
+            <div class="stats-about__item">
+              <div class="stats-about__body">
+                <div class="stats-about__icon">
+                  <svg aria-hidden="true" width="75" height="66">
+                    <use href="img/sprite.svg#people"></use>
+                  </svg>
+                </div>
+                <div class="stats-about__number">3123</div>
+                <div class="stats-about__text">Users who have used our application</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      @include('partials/footer.html')
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
